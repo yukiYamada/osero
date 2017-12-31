@@ -16,3 +16,6 @@ C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\オセロ君\
 D:\01_Yuki\01_開発\ソース\オセロ君\実行環境\オセロ君.exe.config
 D:\01_Yuki\01_開発\ソース\オセロ君\オセロ君\obj\Debug\オセロ君.exe
 D:\01_Yuki\01_開発\ソース\オセロ君\オセロ君\obj\Debug\オセロ君.pdb
+D:\01_Yuki\01_開発\git\osero\実行環境\オセロ君.exe.config
+D:\01_Yuki\01_開発\git\osero\オセロ君\obj\Debug\オセロ君.exe
+D:\01_Yuki\01_開発\git\osero\オセロ君\obj\Debug\オセロ君.pdb
