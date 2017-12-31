@@ -1,0 +1,12 @@
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\bin\Debug\SearchRoot.ini
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\bin\Debug\SerachRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\bin\Debug\SerachRoot.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SerachRoot.csprojResolveAssemblyReference.cache
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SerachRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SerachRoot.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\実行環境\AI\SearchRoot.ini
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\実行環境\AI\SerachRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\実行環境\AI\SerachRoot.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SearchRoot.ini
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SerachRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SerachRoot.pdb

@@ -1,0 +1,5 @@
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\インターフェース君\obj\Debug\インターフェース君.csprojResolveAssemblyReference.cache
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\インターフェース君.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\インターフェース君.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\インターフェース君\obj\Debug\インターフェース君.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\インターフェース君\obj\Debug\インターフェース君.pdb

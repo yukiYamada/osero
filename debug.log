@@ -1,0 +1,21 @@
+[0811/223409:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0811/223416:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0811/223416:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0814/163202:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0814/163204:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0814/163351:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0814/163351:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0814/174513:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0814/174515:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0910/212837:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0910/212842:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0910/212843:ERROR:ipc_channel_win.cc(404)] pipe error: 232
+[0915/221941:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0915/221947:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0915/221948:ERROR:ipc_channel_win.cc(404)] pipe error: 232
+[0918/172055:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0918/172101:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0918/172102:ERROR:ipc_channel_win.cc(404)] pipe error: 232
+[0919/112631:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0919/112637:WARNING:resource_bundle.cc(269)] locale_file_path.empty()
+[0919/112637:ERROR:ipc_channel_win.cc(404)] pipe error: 232

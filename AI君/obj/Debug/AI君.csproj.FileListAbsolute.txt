@@ -1,0 +1,6 @@
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Debug\AI君.csprojResolveAssemblyReference.cache
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI君.ini
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\kusozakonamekuji君.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\kusozakonamekuji君.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Debug\kusozakonamekuji君.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Debug\kusozakonamekuji君.pdb

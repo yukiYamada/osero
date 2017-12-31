@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30D96F6A-029C-475B-9E6E-60D65EC66983}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>オセロ君</RootNamespace>
+    <AssemblyName>オセロ君</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\実行環境\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FBoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBoad.Designer.cs">
+      <DependentUpon>FBoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FConfig.Designer.cs">
+      <DependentUpon>FConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileBrowserButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileBrowserButton.Designer.cs">
+      <DependentUpon>FileBrowserButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="koma.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="koma.Designer.cs">
+      <DependentUpon>koma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FBoad.resx">
+      <DependentUpon>FBoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FConfig.resx">
+      <DependentUpon>FConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowserButton.resx">
+      <DependentUpon>FileBrowserButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="koma.resx">
+      <DependentUpon>koma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\盤面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\インターフェース君\インターフェース君.csproj">
+      <Project>{2e692623-6687-42ba-b78e-f875be6de06c}</Project>
+      <Name>インターフェース君</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\共通君\共通君.csproj">
+      <Project>{78393304-d4a1-45ab-b3fd-cae7b370b027}</Project>
+      <Name>共通君</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
