@@ -1,0 +1,13 @@
+D:\01_Yuki\01_開発\git\osero2\src\実行環境\Osero.exe.config
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\Osero.exe.config
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\Osero.exe
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\Osero.pdb
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\osero.csprojResolveAssemblyReference.cache
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.GameMain.FBoad.resources
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.GameMain.FConfig.resources
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.GameMain.Control.FileBrowserButton.resources
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.GameMain.Control.koma.resources
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.GameMain.Properties.Resources.resources
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\osero.csproj.GenerateResource.Cache
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.exe
+D:\01_Yuki\01_開発\git\osero2\src\GameMain\obj\Debug\Osero.pdb

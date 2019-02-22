@@ -1,9 +1,0 @@
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\bin\Release\AI君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\bin\Release\AI君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\bin\Release\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\bin\Release\共通君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Release\AI君.csprojResolveAssemblyReference.cache
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Release\AI君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\AI君\obj\Release\AI君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\Release\AI君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\Release\AI君.pdb

@@ -1,7 +1,0 @@
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\bin\Release\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\bin\Release\共通君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\obj\Release\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\obj\Release\共通君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\Release\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\Release\共通君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\obj\Release\共通君.csprojResolveAssemblyReference.cache

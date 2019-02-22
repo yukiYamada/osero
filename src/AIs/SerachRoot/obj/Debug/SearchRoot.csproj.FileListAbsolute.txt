@@ -1,0 +1,12 @@
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SearchRoot.ini
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SearchRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\AI\SearchRoot.pdb
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SearchRoot.csprojResolveAssemblyReference.cache
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SearchRoot.dll
+C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\SerachRoot\obj\Debug\SearchRoot.pdb
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\SearchRoot.ini
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\SearchRoot.dll
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\SearchRoot.pdb
+D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.csprojResolveAssemblyReference.cache
+D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.dll
+D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.pdb

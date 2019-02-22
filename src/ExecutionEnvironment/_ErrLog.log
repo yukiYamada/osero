@@ -1,0 +1,4 @@
+System.Collections.Generic.KeyNotFoundException: 指定されたキーはディレクトリ内に存在しませんでした。
+   場所 System.ThrowHelper.ThrowKeyNotFoundException()
+   場所 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   場所 SearchRoot.SearchRoot.LoadKifu() 場所 D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\SearchRoot.cs:行 245

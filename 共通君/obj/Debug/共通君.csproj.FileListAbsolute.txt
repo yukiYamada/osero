@@ -1,4 +1,0 @@
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\実行環境\共通君.pdb
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\obj\Debug\共通君.dll
-C:\Users\couraeg\Desktop\オセロゲーム\ソース\オセロ君\共通君\obj\Debug\共通君.pdb

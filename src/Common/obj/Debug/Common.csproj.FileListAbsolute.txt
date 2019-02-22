@@ -1,0 +1,5 @@
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\Osero.Common.dll
+D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\Osero.Common.pdb
+D:\01_Yuki\01_開発\git\osero2\src\Common\obj\Debug\Osero.Common.dll
+D:\01_Yuki\01_開発\git\osero2\src\Common\obj\Debug\Osero.Common.pdb
+D:\01_Yuki\01_開発\git\osero2\src\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
