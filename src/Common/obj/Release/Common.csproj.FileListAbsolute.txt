@@ -1,0 +1,4 @@
+D:\01_Yuki\01_開発\git\osero\src\Release\Osero.Common.dll
+D:\01_Yuki\01_開発\git\osero\src\Release\Osero.Common.pdb
+D:\01_Yuki\01_開発\git\osero\src\Common\obj\Release\Osero.Common.dll
+D:\01_Yuki\01_開発\git\osero\src\Common\obj\Release\Osero.Common.pdb

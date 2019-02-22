@@ -263,7 +263,7 @@ namespace kusozakonamekuji
         {
 
             Dictionary<string, object> ditReadedRoot = new Dictionary<string, object>();
-            foreach (string strFilePath in System.IO.Directory.GetFiles(mstrLoadPath, "*" + mcstrKifuName))
+            foreach (string strFilePath in System.IO.Directory.GetFiles(mstrLoadPath + "\\AI", "*" + mcstrKifuName))
             {              
                 System.IO.StreamReader sr = new System.IO.StreamReader(strFilePath);
                 while(!sr.EndOfStream)
@@ -377,7 +377,7 @@ namespace kusozakonamekuji
                     }
                     catch(Exception ex) 
                     {
-                        System.IO.StreamWriter sw = new System.IO.StreamWriter(mstrLoadPath + "\\" + mcstrErrLogPath);
+                        System.IO.StreamWriter sw = new System.IO.StreamWriter(mstrLoadPath + "\\AI" + mcstrErrLogPath);
                         sw.WriteLine(ex.ToString());
                         sw.Close();
                         sw.Dispose();

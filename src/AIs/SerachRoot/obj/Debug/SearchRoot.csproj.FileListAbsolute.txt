@@ -10,3 +10,9 @@ D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\AI\SearchRoot.pdb
 D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.csprojResolveAssemblyReference.cache
 D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.dll
 D:\01_Yuki\01_開発\git\osero2\src\AIs\SerachRoot\obj\Debug\SearchRoot.pdb
+D:\01_Yuki\01_開発\git\osero\src\ExecutionEnvironment\AI\SearchRoot.ini
+D:\01_Yuki\01_開発\git\osero\src\ExecutionEnvironment\AI\SearchRoot.dll
+D:\01_Yuki\01_開発\git\osero\src\ExecutionEnvironment\AI\SearchRoot.pdb
+D:\01_Yuki\01_開発\git\osero\src\AIs\SerachRoot\obj\Debug\SearchRoot.csprojResolveAssemblyReference.cache
+D:\01_Yuki\01_開発\git\osero\src\AIs\SerachRoot\obj\Debug\SearchRoot.dll
+D:\01_Yuki\01_開発\git\osero\src\AIs\SerachRoot\obj\Debug\SearchRoot.pdb

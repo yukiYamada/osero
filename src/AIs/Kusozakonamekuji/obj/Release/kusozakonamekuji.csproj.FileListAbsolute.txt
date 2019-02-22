@@ -1,0 +1,6 @@
+D:\01_Yuki\01_開発\git\osero\src\AIs\Release\kusozakonamekuji.ini
+D:\01_Yuki\01_開発\git\osero\src\AIs\Release\kusozakonamekuji.dll
+D:\01_Yuki\01_開発\git\osero\src\AIs\Release\kusozakonamekuji.pdb
+D:\01_Yuki\01_開発\git\osero\src\AIs\Kusozakonamekuji\obj\Release\kusozakonamekuji.csprojResolveAssemblyReference.cache
+D:\01_Yuki\01_開発\git\osero\src\AIs\Kusozakonamekuji\obj\Release\kusozakonamekuji.dll
+D:\01_Yuki\01_開発\git\osero\src\AIs\Kusozakonamekuji\obj\Release\kusozakonamekuji.pdb

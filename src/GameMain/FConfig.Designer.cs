@@ -41,7 +41,7 @@ namespace Osero.GameMain
             this.rdbAISecond = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.txtKifuPass = new System.Windows.Forms.TextBox();
-            this.fileBrowserButton2 = new FileBrowserButton();
+            this.fileBrowserButton2 = new Osero.GameMain.Control.FileBrowserButton();
             this.grpFirst.SuspendLayout();
             this.grpSecond.SuspendLayout();
             this.SuspendLayout();
@@ -82,10 +82,10 @@ namespace Osero.GameMain
             this.rdbAIFirst.AutoSize = true;
             this.rdbAIFirst.Location = new System.Drawing.Point(59, 17);
             this.rdbAIFirst.Name = "rdbAIFirst";
-            this.rdbAIFirst.Size = new System.Drawing.Size(86, 16);
+            this.rdbAIFirst.Size = new System.Drawing.Size(34, 16);
             this.rdbAIFirst.TabIndex = 2;
             this.rdbAIFirst.TabStop = true;
-            this.rdbAIFirst.Text = "オセロ君（AI）";
+            this.rdbAIFirst.Text = "AI";
             this.rdbAIFirst.UseVisualStyleBackColor = true;
             this.rdbAIFirst.CheckedChanged += new System.EventHandler(this.rdbAIFirst_CheckedChanged);
             // 
@@ -104,9 +104,9 @@ namespace Osero.GameMain
             // cmbFirst
             // 
             this.cmbFirst.FormattingEnabled = true;
-            this.cmbFirst.Location = new System.Drawing.Point(151, 16);
+            this.cmbFirst.Location = new System.Drawing.Point(99, 16);
             this.cmbFirst.Name = "cmbFirst";
-            this.cmbFirst.Size = new System.Drawing.Size(317, 20);
+            this.cmbFirst.Size = new System.Drawing.Size(369, 20);
             this.cmbFirst.TabIndex = 3;
             // 
             // grpSecond
@@ -124,9 +124,9 @@ namespace Osero.GameMain
             // cmbSecond
             // 
             this.cmbSecond.FormattingEnabled = true;
-            this.cmbSecond.Location = new System.Drawing.Point(151, 14);
+            this.cmbSecond.Location = new System.Drawing.Point(99, 14);
             this.cmbSecond.Name = "cmbSecond";
-            this.cmbSecond.Size = new System.Drawing.Size(317, 20);
+            this.cmbSecond.Size = new System.Drawing.Size(369, 20);
             this.cmbSecond.TabIndex = 3;
             // 
             // rdbPCSecond
@@ -145,10 +145,10 @@ namespace Osero.GameMain
             this.rdbAISecond.AutoSize = true;
             this.rdbAISecond.Location = new System.Drawing.Point(59, 18);
             this.rdbAISecond.Name = "rdbAISecond";
-            this.rdbAISecond.Size = new System.Drawing.Size(86, 16);
+            this.rdbAISecond.Size = new System.Drawing.Size(34, 16);
             this.rdbAISecond.TabIndex = 2;
             this.rdbAISecond.TabStop = true;
-            this.rdbAISecond.Text = "オセロ君（AI）";
+            this.rdbAISecond.Text = "AI";
             this.rdbAISecond.UseVisualStyleBackColor = true;
             this.rdbAISecond.CheckedChanged += new System.EventHandler(this.rdbAISecond_CheckedChanged);
             // 

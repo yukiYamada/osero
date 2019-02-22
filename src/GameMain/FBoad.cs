@@ -643,11 +643,13 @@ namespace Osero.GameMain
             if(mclsSelectedIdx.idxX == -1)
             {
                 if (!this.mblnSilent) { MessageBox.Show("AIの故障のため、ターンをスキップします。"); }
+                MessageBox.Show("AIの故障のため、ターンをスキップします。");
                 this.TurnSkip();
             }
             else if(this.mkomas[mclsSelectedIdx.idxX, mclsSelectedIdx.idxY]._color!=0 || !this.mkomas[mclsSelectedIdx.idxX, mclsSelectedIdx.idxY].Visible)
             {
                 if (!this.mblnSilent) { MessageBox.Show("AIの故障のため、ターンをスキップします。"); }
+                MessageBox.Show("AIの故障のため、ターンをスキップします。");
                 this.TurnSkip();
             }
             else

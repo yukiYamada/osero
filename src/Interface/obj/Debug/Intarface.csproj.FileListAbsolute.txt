@@ -3,3 +3,8 @@ D:\01_Yuki\01_開発\git\osero2\src\ExecutionEnvironment\Osero.Interface.pdb
 D:\01_Yuki\01_開発\git\osero2\src\Interface\obj\Debug\Intarface.csprojResolveAssemblyReference.cache
 D:\01_Yuki\01_開発\git\osero2\src\Interface\obj\Debug\Osero.Interface.dll
 D:\01_Yuki\01_開発\git\osero2\src\Interface\obj\Debug\Osero.Interface.pdb
+D:\01_Yuki\01_開発\git\osero\src\ExecutionEnvironment\Osero.Interface.dll
+D:\01_Yuki\01_開発\git\osero\src\ExecutionEnvironment\Osero.Interface.pdb
+D:\01_Yuki\01_開発\git\osero\src\Interface\obj\Debug\Intarface.csprojResolveAssemblyReference.cache
+D:\01_Yuki\01_開発\git\osero\src\Interface\obj\Debug\Osero.Interface.dll
+D:\01_Yuki\01_開発\git\osero\src\Interface\obj\Debug\Osero.Interface.pdb

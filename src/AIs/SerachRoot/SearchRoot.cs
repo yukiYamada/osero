@@ -121,7 +121,7 @@ namespace SearchRoot
             }
             if (blnIsAllLose)
             {
-                System.IO.StreamWriter sw = new System.IO.StreamWriter(mstrLoadPath + "\\" + mcstrErrLogPath);
+                System.IO.StreamWriter sw = new System.IO.StreamWriter(mstrLoadPath + "\\AI" + mcstrErrLogPath);
                 sw.WriteLine("ルート走破");
                 sw.Close();
                 sw.Dispose();
@@ -160,11 +160,16 @@ namespace SearchRoot
         {
 
             Dictionary<string, object> ditReadedRoot = new Dictionary<string, object>();
-            foreach (string strFilePath in System.IO.Directory.GetFiles(mstrLoadPath, "*" + mcstrKifuName))
+            foreach (string strFilePath in System.IO.Directory.GetFiles(mstrLoadPath + "\\AI", "*" + mcstrKifuName))
             {
+                int exceptionInfo_linecount = 0;
+                string exceptionInfo_move = string.Empty;
+                int exceptionInfo_movecount = 0;
                 System.IO.StreamReader sr = new System.IO.StreamReader(strFilePath);
                 while (!sr.EndOfStream)
                 {
+                    // エラーログように何行目か確保しておく
+                    exceptionInfo_linecount++;
                     try
                     {
                         string strKifuLine = sr.ReadLine();
@@ -199,6 +204,11 @@ namespace SearchRoot
                             ditReadedRoot.Add(strKifuLine, null);
                         }
 
+                        //エラーログ用
+                        exceptionInfo_move = string.Empty;
+                        exceptionInfo_movecount = 0;
+                        //エラーログ用
+
                         string strKifuMove = "";
                         ChkBord(ref intGameBord, intTurn);
                         while (true)
@@ -206,6 +216,11 @@ namespace SearchRoot
                             if (string.IsNullOrWhiteSpace(strKifuLine)) { break; }
 
                             strKifuMove = strKifuLine.Substring(0, 2);
+                            //エラーログ用
+                            exceptionInfo_move = strKifuLine;
+                            exceptionInfo_movecount++;
+                            //エラーログ用
+
                             strKifuLine = strKifuLine.Substring(2, strKifuLine.Length - 2);
                             if (mcstrTurnSkip == strKifuMove)
                             {
@@ -224,7 +239,6 @@ namespace SearchRoot
                             }
                             BordMappingItem = mBordMapping[strBoadHash];
 
-
                             //すべての選択を突っ込んでおく
                             for (int i = 1; i < 9; i++)
                             {
@@ -242,7 +256,14 @@ namespace SearchRoot
                                     }
                                 }
                             }
-                            clsGameResult BordMappingItemItem = BordMappingItem[strKifuMove];
+
+                            clsGameResult BordMappingItemItem = new clsGameResult();
+                            if (BordMappingItem.ContainsKey(strKifuMove))
+                            {
+                                // 選択肢に従って読み込み。                            
+                                // アイテムが全然ないときはターンスキップ（のはず）
+                                BordMappingItemItem = BordMappingItem[strKifuMove];
+                            }                            
                             BordMappingItemItem.blnIsReaed = true;
                             int intKifuIdxX = clsKifuCnv.GetXIndex(strKifuMove);
                             int intKifuIdxY = clsKifuCnv.GetYIndex(strKifuMove);
@@ -267,7 +288,7 @@ namespace SearchRoot
                     catch (Exception ex)
                     {
                         System.IO.StreamWriter sw = new System.IO.StreamWriter(mstrLoadPath + "\\" + mcstrErrLogPath);
-                        sw.WriteLine(ex.ToString());
+                        sw.WriteLine(ex.ToString() + string.Format("Line:{0}colmun:{1}Move:{2}",exceptionInfo_linecount,exceptionInfo_movecount,exceptionInfo_move));
                         sw.Close();
                         sw.Dispose();
                     }
