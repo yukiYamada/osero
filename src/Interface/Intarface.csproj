@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAIInterface.cs" />
+    <Compile Include="CAIInterfaceBase.cs" />
+    <Compile Include="CInterfaceCreater.cs" />
+    <Compile Include="CInterfaceForDotnet.cs" />
+    <Compile Include="CInterfaceForPython.cs" />
+    <Compile Include="IAIInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

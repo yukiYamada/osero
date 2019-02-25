@@ -98,8 +98,8 @@ namespace Osero.GameMain
         private int mintBCnt;
         private int mintWCnt;
         private bool mblnOkClick;
-        private CInterface AIP1;
-        private CInterface AIP2;
+        private IAIInterface AIP1;
+        private IAIInterface AIP2;
 
         public FBoad()
         {
@@ -151,12 +151,12 @@ namespace Osero.GameMain
             if (S_mp1Mode == 1)
             {
                 this.AIP1 = null;
-                this.AIP1 = new CInterface(S_P1AI, Application.StartupPath, -1);
+                this.AIP1 = CInterfaceCreater.Create(S_P1AI, Application.StartupPath, -1);
             }
             if (S_mp2Mode == 1)
             {
                 this.AIP2 = null;
-                this.AIP2 = new CInterface(S_P2AI, Application.StartupPath, 1);
+                this.AIP2 = CInterfaceCreater.Create(S_P2AI, Application.StartupPath, 1);
             }
         }
         private void GameOver()
